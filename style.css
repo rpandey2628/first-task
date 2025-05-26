@@ -7,12 +7,30 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-image: url(https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?semt=ais_hybrid&w=740);
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+    height: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+margin-left: 1rem;
+    height: 100px;
 }
 
 nav {
-    background: #333;
-    color: #fff;
+    
+    color: #333;
     padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-right: 5rem;
+   
 }
 
 nav ul {
@@ -25,10 +43,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #080808;
     text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
 }
 
 h1 {
     margin-top: 2rem;
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1rem;
 }
